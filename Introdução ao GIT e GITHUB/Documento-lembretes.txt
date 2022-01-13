@@ -1,0 +1,35 @@
+# Comandos básicos do GIT
+
+Git init -> Iniciar o código.
+
+Git Status -> Relatório sobre os arquivos.
+
+Git add -> confirmar um arquivo.
+
+Git Add. (ou *) -> confirmar todos os arquivos.
+
+Git config --global user.email ->  configurar E-mail.
+
+Git config --global user.name -> configurar nome.
+
+Git commit -m "descrição" -> versionar código.
+
+Git remote add origin "link do repositório remoto" -> adicionar o link do repositório do github.
+
+Git push -> Jogar o repositório remoto.
+
+Git push --set -ustream origin master  -> para indicar que a branch master receberá as atualizações.
+
+Git pull -> Atualizar versão do código na maquina.
+
+Git reflog -> verificar versão do código.
+
+Git reset --hard "código SHA1" -> para retornar a versão anterior listada no BASH
+
+Git branch -> verificar quantas branchs foram criadas
+
+Git branch "nome -> criar uma nova branch
+
+Git checkout -b "nome da branch" -> para editar uma outra branch
+
+Git merge "nome da branch" juntar as branches 
